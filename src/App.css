@@ -130,3 +130,22 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+.project-links {
+  margin-top: 1rem;
+}
+
+.project-links a {
+  display: inline-block;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.project-links a:hover {
+  background: #2563eb;
+}

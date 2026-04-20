@@ -6,12 +6,12 @@ function App() {
     <div className="portfolio">
       <header className="hero">
         <img 
-          src="https://via.placeholder.com/120" 
+          src="/profile.jpg" 
           alt="Profile" 
           className="avatar"
         />
         <h1>Jane Doe</h1>
-        <p className="tagline">Frontend Developer & UI Enthusiast</p>
+        <p className="tagline">Network Engineer</p>
         <div className="social-links">
           <a href="#">GitHub</a>
           <a href="#">LinkedIn</a>
@@ -22,34 +22,51 @@ function App() {
       <section className="about">
         <h2>About Me</h2>
         <p>
-          I'm a passionate developer who loves building simple, beautiful web experiences.
-          Currently focused on React and modern JavaScript.
+          I'm a Network Engineer passionate about designing secure, scalable network infrastructures.
+          Experienced with routing, switching, firewall configuration, and network monitoring.
         </p>
       </section>
 
       <section className="projects">
-        <h2>Projects</h2>
+        <h2>Network Projects</h2>
         <div className="project-grid">
           <div className="project-card">
-            <h3>Weather App</h3>
-            <p>Real-time weather data using OpenWeather API</p>
-            <span className="tech">React, API</span>
+            <h3>Enterprise Network Design</h3>
+            <p>Designed VLAN segmentation, OSPF routing, and ACL implementation for 500+ users</p>
+            <span className="tech">Cisco, OSPF, VLAN, ACL</span>
+            <div className="project-links">
+              <a href="https://github.com/YOUR_USERNAME/enterprise-network" target="_blank" rel="noopener noreferrer">
+                GitHub →
+              </a>
+            </div>
           </div>
+          
           <div className="project-card">
-            <h3>Task Manager</h3>
-            <p>Simple to-do app with local storage</p>
-            <span className="tech">React Hooks</span>
+            <h3>Network Security Implementation</h3>
+            <p>Configured firewall rules, VPN tunnels, and IDS/IPS monitoring</p>
+            <span className="tech">pfSense, WireGuard, Snort</span>
+            <div className="project-links">
+              <a href="https://github.com/YOUR_USERNAME/network-security" target="_blank" rel="noopener noreferrer">
+                GitHub →
+              </a>
+            </div>
           </div>
+          
           <div className="project-card">
-            <h3>Portfolio Site</h3>
-            <p>This very portfolio — minimal & responsive</p>
-            <span className="tech">React, CSS</span>
+            <h3>Network Monitoring Dashboard</h3>
+            <p>Built real-time monitoring with alerts for bandwidth and device status</p>
+            <span className="tech">PRTG, Grafana, SNMP</span>
+            <div className="project-links">
+              <a href="https://github.com/YOUR_USERNAME/network-monitoring" target="_blank" rel="noopener noreferrer">
+                GitHub →
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
       <footer>
-        <p>© 2025 Jane Doe. Built with React</p>
+        <p>© 2025 Jane Doe. Network Engineer Portfolio</p>
       </footer>
     </div>
   );
